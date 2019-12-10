@@ -128,14 +128,24 @@ nav ul li p {
   width: 100%;
 }
 
-.row-1 {
+.row-1, .row-3 {
   display: flex;
   padding-top: 20px;
   margin: auto;
   width: 96%;
 }
 
-.row-1 article {
+.row-2 {
+  display: flex;
+  flex-flow: row-reverse;
+  padding-top: 20px;
+  margin: auto;
+  width: 96%
+}
+
+.row-1 article,
+.row-2 article, 
+.row-3 article {
   width: 100%;
   margin: auto;
   height: 500px;
@@ -143,12 +153,18 @@ nav ul li p {
 }
 
 .row-1 article h1,
-.row-1 article p {
+.row-1 article p, 
+.row-2 article h1,
+.row-2 article p,
+.row-3 article h1,
+.row-3 article p  {
   margin-right: 30px;
   margin-left: 30px;
 }
 
-.row-1 article h1 {
+.row-1 article h1,
+.row-2 article h1, 
+.row-3 article h1 {
   margin-bottom: 10px;
   font-size: 1.8em;
   font-weight: bold;
@@ -156,12 +172,49 @@ nav ul li p {
   line-height: 1.3em;
 }
 
-.row-1 article p {
+.row-1 article p,
+.row-2 article p,
+.row-3 article p {
   font-size: 1.6em;
   margin-bottom: 70px;
 }
 
-.row-1 article h2 {
+.row-1 article h2,
+.row-2 article h2,
+.row-3 article h2 {
   margin-bottom: 15px;
   margin-left: 30px;
+}
+
+.row-2 .no-border-left,
+.row-3 .no-border-left {
+  border-left: none;
+  background: #575757;
+}
+
+.row-2 .no-border-right,
+.row-3 .no-border-right {
+  border-right: none;
+  background: #575757;
+}
+
+.article-call {
+  position: relative;
+  width: 40%;
+  top: 230%;
+  right: 5%;
+  display: flex;
+  justify-items: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.img-square {
+  height: 200px;
+  width: 200px;
+  background: #838282;
+}
+
+.article-call button {
+
 }
