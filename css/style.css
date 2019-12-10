@@ -75,7 +75,7 @@ nav ul li p {
 
 .hero {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -135,6 +135,7 @@ nav ul li p {
   padding-top: 20px;
   margin: auto;
   width: 96%;
+  margin-bottom: 10px;
 }
 
 .row-2 {
@@ -164,6 +165,19 @@ nav ul li p {
     width: 50%;
     margin-bottom: 20px;
 }
+
+.promo-2 {
+  width: 200%;
+  background-color: #575757;
+  border-radius: 15px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 
 .row-1 article,
 .row-2 article,
@@ -238,4 +252,113 @@ nav ul li p {
 }
 
 .article-call button {
+}
+
+
+.book-1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #575757;
+}
+
+.book-1 p {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  background: black;
+  min-height: 50px;
+  width: 200px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.book-img {
+  max-height: 300px; 
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  background: white;
+}
+
+.book-1 h2, 
+.book-1 p, 
+.book-1 button, 
+.book-1 div {
+  margin: 40px;
+}
+
+.community-container {
+  width: 96%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.community-individual-header {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 40%;
+  margin: 100px 0 100px 50px;
+}
+
+.community-individual-header .hero-img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border: 10px solid red;
+
+}
+
+.community-individual-header h3 {
+  font-size: 20px;
+  margin:25px;
+  margin-bottom: 30px;
+}
+
+.community-individual-header p {
+  font-size: 22px;
+  line-height: 2em;
+  margin: 25px;
+}
+
+.community-individual {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 40%;
+  margin: 100px 0 100px 50px;
+}
+
+.community-individual .hero-img {
+  border-color: red;
+}
+
+.community-individual .h2-hero {
+  color: black;
+  text-shadow: none;
+  font-size: 30px;
+  margin-left: -2px;
+}
+
+
+.book-2 {
+  background: #575757;
+  height: 40vh;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.book-2 h2, 
+.book-2 p,
+.book-2 button {
+  margin-left: 100px;
 }
