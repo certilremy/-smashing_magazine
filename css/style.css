@@ -128,7 +128,9 @@ nav ul li p {
   width: 100%;
 }
 
-.row-1, .row-3 {
+.row-1,
+.row-2,
+.row-3 {
   display: flex;
   padding-top: 20px;
   margin: auto;
@@ -136,15 +138,35 @@ nav ul li p {
 }
 
 .row-2 {
+  height: 500px;
+}
+
+.promo-1 {
+  width: 200%;
+  background-color: #575757;
+  border-radius: 15px;
+  margin-right: 20px;
   display: flex;
-  flex-flow: row-reverse;
-  padding-top: 20px;
-  margin: auto;
-  width: 96%
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#content-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#content-promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 .row-1 article,
-.row-2 article, 
+.row-2 article,
 .row-3 article {
   width: 100%;
   margin: auto;
@@ -153,17 +175,17 @@ nav ul li p {
 }
 
 .row-1 article h1,
-.row-1 article p, 
+.row-1 article p,
 .row-2 article h1,
 .row-2 article p,
 .row-3 article h1,
-.row-3 article p  {
+.row-3 article p {
   margin-right: 30px;
   margin-left: 30px;
 }
 
 .row-1 article h1,
-.row-2 article h1, 
+.row-2 article h1,
 .row-3 article h1 {
   margin-bottom: 10px;
   font-size: 1.8em;
@@ -216,5 +238,4 @@ nav ul li p {
 }
 
 .article-call button {
-
 }
