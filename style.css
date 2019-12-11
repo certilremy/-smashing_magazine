@@ -79,7 +79,7 @@
 
 .articles {
   display: grid;
-  grid-template: repeat(3, 75vh) / 100%;
+  grid-template: repeat(2, 75vh) / 100%;
 }
 
 .rows {
@@ -229,4 +229,10 @@ p {
   flex: 1 1 0;
   width: 40vw;
   background: white;
+}
+
+.center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
