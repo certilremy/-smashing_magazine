@@ -82,6 +82,10 @@
   grid-template: repeat(3, 75vh) / 100%;
 }
 
+.sponsor {
+  visibility: hidden;
+}
+
 .rows {
   display: grid;
   grid-template: 100% / repeat(4, 1fr);
@@ -89,7 +93,7 @@
 
 .flex-row {
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
 }
 
 .row-1 {
