@@ -5,11 +5,11 @@
 This project is simple heatmap of smahing magazin made only with html and css . yout can find the original one here : https://www.smashingmagazine.com/
 
 ## Our solution
-![our solution](./heatmap_smash.png)
+![Our Solution](./smashingMagazineSolution.png)
 
 
 ## The original 
-![our solution](./original.png)
+![Smashing Magazine](./original.png)
 
 
 ### Contact 
