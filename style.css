@@ -83,6 +83,12 @@
   flex-direction: column;
 }
 
+p {
+  font-size: 1.6em;
+  font-weight: normal;
+  line-height: 1.7em;
+}
+
 .row-1,
 .row-2,
 .row-3,
@@ -259,7 +265,8 @@ article {
 }
 
 footer {
-  height: 70vh;
+  background-color: #696969;
+  height: 600px;
 }
 
 button {
@@ -271,12 +278,6 @@ button {
   padding: auto;
   border-radius: 10px;
   border: none;
-}
-
-p {
-  font-size: 1.6em;
-  font-weight: normal;
-  line-height: 1.7em;
 }
 
 .book-2-description {
@@ -297,11 +298,6 @@ p {
   flex: 1 1 0;
   width: 40vw;
   background: white;
-}
-
-footer {
-  background-color: #696969;
-  height: 600px;
 }
 
 footer h4 {
