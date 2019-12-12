@@ -317,6 +317,10 @@ footer h4 {
   margin: 0 auto;
 }
 
+.footer-inner-wrapper p {
+  text-align: center;
+}
+
 footer ul:first-of-type {
   width: 100%;
   list-style-type: disc;
