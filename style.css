@@ -26,7 +26,7 @@
 }
 
 .h3-white {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
@@ -45,11 +45,38 @@
   background: rgb(187, 187, 187);
 }
 
+.navbar {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
 .nav-menu {
   width: 100%;
   height: 25vh;
   display: flex;
   flex-flow: row;
+}
+
+.logo {
+  flex: 1 1 15%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.search {
+  flex: 1 1 15%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
 }
 
 .nav-item {
@@ -82,6 +109,10 @@
   grid-template: repeat(2, 75vh) / 100%;
 }
 
+.sponsor {
+  visibility: hidden;
+}
+
 .rows {
   display: grid;
   grid-template: 100% / repeat(4, 1fr);
@@ -89,7 +120,7 @@
 
 .flex-row {
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
 }
 
 .row-1 {
@@ -120,19 +151,30 @@ article {
 
 .community-hd {
   height: 40vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.6em;
+  font-weight: normal;
+  line-height: 1.7em;
+}
+
+.community-hd h2,
+.community-hd p {
+  margin-left: 30px;
+  width: 600px;
 }
 
 .community-ind {
-  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .ind {
   height: 250px;
-  max-width: 100%;
-  min-width: 560px;
-  width: 100%;
   flex: 1 1 0;
   margin: 0 auto;
   border: 1px solid gray;
@@ -153,8 +195,6 @@ article {
   border: 1px solid gray;
   display: flex;
   flex-flow: column;
-  max-width: 100%;
-  min-width: 250;
   width: 100%;
   flex: 1 1 0;
   padding: 2.5%;
@@ -190,12 +230,7 @@ button {
   padding: auto;
   border-radius: 10px;
   border: none;
-}
-
-p {
-  font-size: 1.6em;
-  font-weight: normal;
-  line-height: 1.7em;
+  margin-left: 30px;
 }
 
 .book-2-description {
@@ -221,18 +256,36 @@ p {
   padding-bottom: 10px;
 }
 
-.hot button {
-  margin-left: 30px;
-}
-
 .booK-2-description-img {
   flex: 1 1 0;
   width: 40vw;
   background: white;
 }
 
+<<<<<<< HEAD
 .center-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+=======
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-items {
+  text-align: center;
+  margin-left: 20px;
+}
+>>>>>>> 6b5ecc218e25ce0f36fe1771d81e309d29777996
