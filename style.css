@@ -344,7 +344,6 @@ footer ul:first-of-type li::before {
   top: 2px;
 }
 
-
 footer ul:last-of-type {
   width: 60%;
   margin-bottom: 50px;
@@ -357,4 +356,8 @@ footer ul:last-of-type li {
   font-size: 1.6em;
   line-height: 1em;
   white-space: nowrap;
+}
+
+#invisible {
+  visibility: hidden;
 }
