@@ -45,11 +45,38 @@
   background: rgb(187, 187, 187);
 }
 
+.navbar {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
 .nav-menu {
   width: 100%;
   height: 25vh;
   display: flex;
   flex-flow: row;
+}
+
+.logo {
+  flex: 1 1 15%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.search {
+  flex: 1 1 15%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
 }
 
 .nav-item {
@@ -124,19 +151,24 @@ article {
 
 .community-hd {
   height: 40vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.community-hd h2,
+.community-hd p {
+  margin-left: 30px;
+  width: 600px;
 }
 
 .community-ind {
-  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .ind {
   height: 250px;
-  max-width: 100%;
-  min-width: 560px;
-  width: 100%;
   flex: 1 1 0;
   margin: 0 auto;
   border: 1px solid gray;
@@ -225,7 +257,7 @@ p {
   padding-bottom: 10px;
 }
 
-.hot button {
+button {
   margin-left: 30px;
 }
 
@@ -235,9 +267,15 @@ p {
   background: white;
 }
 
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-links {
-  width: 100%;
-  height: 100%;
+  width: 50%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -245,11 +283,7 @@ p {
 }
 
 .footer-items {
-  height: 20px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: ;
   text-align: center;
-  padding: 2%;
+  margin-left: 20px;
 }
